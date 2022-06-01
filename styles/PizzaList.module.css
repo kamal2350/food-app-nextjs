@@ -1,0 +1,43 @@
+.container{
+    padding-top:10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.heading{
+    padding-bottom: 10vh;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 5vh;
+}
+.desc{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.4);
+    text-align: justify;
+    margin-bottom: 10vh;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width:481px) {
+    .container{
+        padding-top: 5vh;
+    }
+    .heading{
+        font-size: 3vh;
+        padding-bottom: 5vh;
+    }
+    .desc{
+        font-size: 2vh;
+    }
+    
+}

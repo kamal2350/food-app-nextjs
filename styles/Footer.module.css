@@ -1,0 +1,84 @@
+.container{
+    background-color:whitesmoke;
+    margin-top: 10vh;
+    width: 90vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10vh;
+}
+.contact{
+
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    
+    
+}
+.container h2{
+    font-size: 30px;
+    margin-bottom: auto;
+}
+.links{
+    /* background-color: rgb(138, 197, 49);     */
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.contact_properties{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;    
+}
+.contact_properties p{
+    font-size:20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.contact_icons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 20px;
+    
+}
+.link_links_container{
+   
+    width: 80%;
+    margin-bottom: auto;
+    
+    
+}
+.link_links_container ul{
+    width: 100%;
+    list-style: none;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    flex-wrap: wrap;
+}
+.link_links_container li{
+    /* background-color: bisque; */
+    text-align: center;
+    min-width: 40%;
+    color: rgb(0,0,0,0.6);
+    font-size: 20px;
+    margin: 2px;
+
+}
+
+@media screen and (max-width:481px) {
+    .links{
+        display: none;
+    }
+    
+}

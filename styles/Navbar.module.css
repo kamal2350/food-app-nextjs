@@ -1,0 +1,88 @@
+.container{
+   background: linear-gradient(275deg, rgb(253, 170, 149), rgb(248, 133, 98));
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 30px;position:fixed;
+   height: 100px;
+   width: 100vw;
+   z-index: 999;
+   
+
+}
+.item{
+    flex:1;
+    display: flex;
+    align-items:center;
+
+}
+.item:nth-child(2)
+{
+    flex:3;
+}
+.callButton{
+    background-color: white;
+    border-radius: 30px;
+    border-radius: 50%;
+    height:60px;
+    width: 60px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texts{
+    
+    color: whitesmoke;
+}
+.text:first-child{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.text:last-child{
+    font-size: 24px;
+    font-weight: 500;
+}
+.list{
+    color: antiquewhite;
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.listitem{
+    font-size: 24px;
+    cursor: pointer;
+}
+.logo{
+    font-size: 40px;
+    align-items: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.item:last-child{
+    justify-content: flex-end;
+}
+.right{
+    background-color: aliceblue;
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:481px) {
+
+.item:nth-child(2){
+    display: none;
+}
+.item:nth-child(1){
+    flex:3;
+}
+
+}

@@ -1,0 +1,152 @@
+.container{
+    height: calc(100vh - 100px);
+    position: relative;
+    background: linear-gradient(275deg, rgb(253, 170, 149), rgb(248, 133, 98));
+    overflow: hidden;
+    position: relative;
+    top:100px;
+    margin-bottom: 10vh;
+}
+.arrowcontainer{
+    position: absolute ;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40px;
+    width:40px;
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 3;
+    
+}
+.arrowcontainer:hover{
+    background-color:rgb(185, 220, 250) ;
+}
+.wrapper{
+    width: 300vw;
+    height: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    transition: all 1.5s ease-in-out;
+
+   
+    
+}
+.eachwrapper{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+.imgcontainer{
+    height: 100%;
+    width: 50%;
+    /* background-color: yellow; */
+    
+    align-items: center;
+    position: relative;
+
+  
+}
+.image{
+    margin: auto;
+    position: absolute;
+    left:5%;   
+    top:10%;
+    max-width: 100%;
+    
+}
+.textcontainer{
+    padding: 40px;
+    height: 100%;
+    width: 40%;
+    /* background-color: rgb(233, 21, 21); */
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.heading{
+    font-size: 48px;
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20vh;
+}
+.p{
+    font-size: 24px;
+    color: aliceblue;
+    text-align: left;
+    margin-bottom: 30px;
+
+}
+.btn{
+    background-color:whitesmoke;
+    color:rgba(253,170,150);
+    font-weight:bold;
+    height:7vh;
+    width: 50%;
+    box-shadow:3px 3px 6px 2px rgba(0,0,0,0.271);
+    font-size:20px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+.btn:hover{
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width:481px) {
+    .container{
+        height: 50vh;
+    }
+    .eachwrapper{
+        align-items: center;
+    }
+    .imgcontainer{
+        width: 50%;
+        /* background-color: aqua; */
+        align-items: center;
+        margin-top: -50px;
+        height: 50%;
+
+    }
+    .textcontainer{
+        width: 50%;
+        /* background-color: rgb(8, 8, 8); */
+        align-items: center;
+        
+    }
+    .heading{
+        font-size: 16px;
+        margin-top: 50%;
+       
+    }
+    .p{
+        font-size: 12px;
+    }
+    .btn{
+      
+        background-color: rgba(0,0,0,0.6);
+        color: aliceblue;
+        width: 40vw;
+        /* margin-right: 90px; */
+        align-self: left;
+        font-size: 12px;
+        height: 5vh;
+        z-index: 99;
+        position: relative;
+        top: 30%;
+
+    }
+    .arrowcontainer{
+        background-color: rgba(255,255,255,0.8);
+       
+    }
+
+    
+}

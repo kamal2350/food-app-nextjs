@@ -1,0 +1,45 @@
+.container{
+  width: 23%;
+  height:40vh;
+  background-color: rgba(253, 172, 106, 0.3);
+  box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.image{
+    width: 80%;
+    height: 60%;
+    object-fit: contain;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-content: center;
+    /* background-color: aliceblue; */
+}
+.title{
+  font-size: 3vh;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.price{
+    font-size: 2vh;
+    color: rgb(92, 82, 82);
+}
+.price span{
+  font-size: 30px;
+  color: black;
+}
+@media  screen and (max-width:481px) {
+  .container{
+    width: 100%;
+    box-shadow:none;
+  }
+
+  
+}
