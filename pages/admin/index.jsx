@@ -100,8 +100,8 @@ const handleStatus= async(id)=>{
               <th>Action</th>
             </tr>
           </tbody>
-          {orderList.map((order) => (
-            <tbody key={order._id}>
+          {orderList.map((order,index) => (
+            <tbody key={index}>
               <tr className={styles.trTitle}>
                 <td>{order._id.slice(0, 5)}...</td>
                 <td>{order.customer}</td>
